@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOT DODGE!</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>HOT DODGE!</h1>
+
+    <div class="container">
+        <div class="gameCol" id = "navigationGameMenu"> <!-- First div on the left -->
+            <ul>
+                <li class = "buttonItem"><button>Start</button></li>
+                <li class = "buttonItem"><button id="resetButton">Reset</button></li>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+        <div class="gameCol" id="gameContainer"> <!-- Second div on the right -->
+            <span id="levelDisplay">Level: 1</span>
+            <canvas id="gameCanvas" width="850" height="600"></canvas>
+        </div>
+    </div>
+
+<script src = 'static/game.js'></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+
+/* Set a fun background color and font-family */
+body {
+    background-color: #041d27;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+
+
+li.buttonItem {
+    background-color: rgba(255, 116, 0, 0.67);
+}
+
+ul {
+    padding-left: 10%;
+    padding-right: 10%;
+    list-style: none; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 95%;
+    color: rgb(198, 231, 231);
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+a {
+    /* Reset all anchor styles */
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    text-align: center;
+    background-color:  rgba(255, 255, 255, 0.0);
+    border: none;
+    font: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+/* Style for each column (div) */
+.column {
+    flex: 1; /* Distribute available space equally between columns */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#navigationGameMenu {
+    width: 20%;
+}
+
+#gameContainer {
+    width: 850px;
+    background-color: rgb(23, 75, 75);
+}
+
+canvas {
+    background-color: rgb(23, 60, 77);
+}
+
+ul.mainMenu {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#levelDisplay{
+    padding: 10px 10px 10px 10px;
+    color: #ccc;
+    font-size: 20px;
+}
